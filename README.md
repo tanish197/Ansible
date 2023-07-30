@@ -1,6 +1,25 @@
 # Ansible
 
 ## Few commands used:
+    $cd .ssh
+
+    $vim ansible_key
+    
+         and paste the private key there copied by opening it in vs code
+
+    $sudo ssh -i ~/.ssh/ansible_key ubuntu@I.P      // replace I.P with server I.P
+
+    $exit //this was ssh :entering from one server to another
+
+    $cd ..
+
+    $mkdir ansible
+
+    $vim hosts
+
+          [servers]
+    
+      
     $pwd
     
     $ansible-inventory --list -y -i  /home/ubuntu/ansible
