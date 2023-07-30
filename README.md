@@ -17,8 +17,19 @@
 
     $vim hosts
 
-          [servers]
+           [servers]
+           
+           server1 ansible_host=3.7.68.152   //replace with ur server I.P
+           
+           server2 ansible_host=3.7.69.180    //replace with ur server I.P
+           
+           server3 ansible_host=13.127.145.213   //replace with ur server I.P
+
+           [all:vars]
+           
+           ansible_python_interpreter= /usr/bin/python3
     
+    Save and exit
       
     $pwd
     
